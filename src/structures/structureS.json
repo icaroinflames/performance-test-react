@@ -11,8 +11,7 @@
       },
       "field3": {
         "type": "muiText",
-        "formula": "field2 * 1.1",
-        "useFor": "field4"
+        "formula": "field2 * 1.1"
       }
   }
 }

@@ -1,8 +1,8 @@
 import { useContext, useState, useEffect } from "react";
 import DataContext from "../../context/DataContext";
+import CustomInput from "../CustomImput";
 
-import TextField from "@mui/material/TextField";
-import Box from "@mui/material/Box";
+
 import {create, all} from "mathjs";
 const math = create(all);
 
@@ -11,7 +11,6 @@ const SimpleInput = ({ name, formula, ...props }) => {
     const dataContext = useContext(DataContext);
     const fields = dataContext.fields;
     const setFields = dataContext.setFields;
-    const contextValue = dataContext[name];
 
     const [value, setValue] = useState(0);
     
@@ -32,16 +31,13 @@ const SimpleInput = ({ name, formula, ...props }) => {
         setFields(newFields);
     },[value]);
 
-    return (
-      <Box sx={{margin:'16px'}}>
-        <TextField 
-            id={name} 
-            label={name} 
+    return <CustomInput 
+            name={name} 
             value={value}
-            onChange={onChangeValue} 
-            disabled = {formula !== undefined}/>
-      </Box>
-    )
+            onChangeValue={onChangeValue}
+            disabled={formula !== undefined}
+            {...props}
+            />
 };
 
 export default SimpleInput;

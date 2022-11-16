@@ -1,0 +1,46 @@
+{
+  "fields": {
+    "field1": {
+      "type": "muiText",
+      "useFor": "field2"
+    },
+    "field2": {
+      "type": "muiText",
+      "formula": "field1 * 1.1",
+      "useFor": "field3"
+    },
+    "field3": {
+      "type": "muiText",
+      "formula": "field2 * 1.1",
+      "useFor": "field4"
+    },
+    "field4": {
+      "type": "muiText",
+      "formula": "field3 * 1.1",
+      "useFor": "field5"
+    },
+    "field5": {
+      "type": "muiText",
+      "formula": "field4 * 1.1"
+    },
+    "field6": {
+      "type": "muiText",
+      "formula": "field5 * 1.1",
+      "useFor": "field7"
+    },
+    "field7": {
+      "type": "muiText",
+      "formula": "field6 * 1.1",
+      "useFor": "field8"
+    },
+    "field8": {
+      "type": "muiText",
+      "formula": "field7 * 1.1",
+      "useFor": "field9"
+    },
+    "field9": {
+      "type": "muiText",
+      "formula": "field8 * 1.1"
+    }
+  }
+}

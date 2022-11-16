@@ -1,0 +1,502 @@
+{
+  "fields": {
+    "field1": {
+      "type": "muiText",
+      "useFor": "field2"
+    },
+    "field2": {
+      "type": "muiText",
+      "formula": "field1 * 1.1",
+      "useFor": "field3"
+    },
+    "field3": {
+      "type": "muiText",
+      "formula": "field2 * 1.1",
+      "useFor": "field4"
+    },
+    "field4": {
+      "type": "muiText",
+      "formula": "field3 * 1.1",
+      "useFor": "field5"
+    },
+    "field5": {
+      "type": "muiText",
+      "formula": "field4 * 1.1",
+      "useFor": "field6"
+    },
+    "field6": {
+      "type": "muiText",
+      "formula": "field5 * 1.1",
+      "useFor": "field7"
+    },
+    "field7": {
+      "type": "muiText",
+      "formula": "field6 * 1.1",
+      "useFor": "field8"
+    },
+    "field8": {
+      "type": "muiText",
+      "formula": "field7 * 1.1",
+      "useFor": "field9"
+    },
+    "field9": {
+      "type": "muiText",
+      "formula": "field8 * 1.1",
+      "useFor": "field10"
+    },
+    "field10": {
+      "type": "muiText",
+      "formula": "field9 * 1.1",
+      "useFor": "field11"
+    },
+    "field11": {
+      "type": "muiText",
+      "formula": "field10 * 1.1",
+      "useFor": "field12"
+    },
+    "field12": {
+      "type": "muiText",
+      "formula": "field11 * 1.1",
+      "useFor": "field13"
+    },
+    "field13": {
+      "type": "muiText",
+      "formula": "field12 * 1.1",
+      "useFor": "field14"
+    },
+    "field14": {
+      "type": "muiText",
+      "formula": "field13 * 1.1",
+      "useFor": "field15"
+    },
+    "field15": {
+      "type": "muiText",
+      "formula": "field14 * 1.1",
+      "useFor": "field16"
+    },
+    "field16": {
+      "type": "muiText",
+      "formula": "field15 * 1.1",
+      "useFor": "field17"
+    },
+    "field17": {
+      "type": "muiText",
+      "formula": "field16 * 1.1",
+      "useFor": "field18"
+    },
+    "field18": {
+      "type": "muiText",
+      "formula": "field17 * 1.1",
+      "useFor": "field19"
+    },
+    "field19": {
+      "type": "muiText",
+      "formula": "field18 * 1.1",
+      "useFor": "field20"
+    },
+    "field20": {
+      "type": "muiText",
+      "formula": "field19 * 1.1",
+      "useFor": "field21"
+    },
+    "field21": {
+      "type": "muiText",
+      "formula": "field20 * 1.1",
+      "useFor": "field22"
+    },
+    "field22": {
+      "type": "muiText",
+      "formula": "field21 * 1.1",
+      "useFor": "field23"
+    },
+    "field23": {
+      "type": "muiText",
+      "formula": "field22 * 1.1",
+      "useFor": "field24"
+    },
+    "field24": {
+      "type": "muiText",
+      "formula": "field23 * 1.1",
+      "useFor": "field25"
+    },
+    "field25": {
+      "type": "muiText",
+      "formula": "field24 * 1.1",
+      "useFor": "field26"
+    },
+    "field26": {
+      "type": "muiText",
+      "formula": "field25 * 1.1",
+      "useFor": "field27"
+    },
+    "field27": {
+      "type": "muiText",
+      "formula": "field26 * 1.1",
+      "useFor": "field28"
+    },
+    "field28": {
+      "type": "muiText",
+      "formula": "field27 * 1.1",
+      "useFor": "field29"
+    },
+    "field29": {
+      "type": "muiText",
+      "formula": "field28 * 1.1",
+      "useFor": "field30"
+    },
+    "field30": {
+      "type": "muiText",
+      "formula": "field29 * 1.1",
+      "useFor": "field31"
+    },
+    "field31": {
+      "type": "muiText",
+      "formula": "field30 * 1.1",
+      "useFor": "field32"
+    },
+    "field32": {
+      "type": "muiText",
+      "formula": "field31 * 1.1",
+      "useFor": "field33"
+    },
+    "field33": {
+      "type": "muiText",
+      "formula": "field32 * 1.1",
+      "useFor": "field34"
+    },
+    "field34": {
+      "type": "muiText",
+      "formula": "field33 * 1.1",
+      "useFor": "field35"
+    },
+    "field35": {
+      "type": "muiText",
+      "formula": "field34 * 1.1",
+      "useFor": "field36"
+    },
+    "field36": {
+      "type": "muiText",
+      "formula": "field35 * 1.1",
+      "useFor": "field37"
+    },
+    "field37": {
+      "type": "muiText",
+      "formula": "field36 * 1.1",
+      "useFor": "field38"
+    },
+    "field38": {
+      "type": "muiText",
+      "formula": "field37 * 1.1",
+      "useFor": "field39"
+    },
+    "field39": {
+      "type": "muiText",
+      "formula": "field38 * 1.1",
+      "useFor": "field40"
+    },
+    "field40": {
+      "type": "muiText",
+      "formula": "field39 * 1.1",
+      "useFor": "field41"
+    },
+    "field41": {
+      "type": "muiText",
+      "formula": "field40 * 1.1",
+      "useFor": "field42"
+    },
+    "field42": {
+      "type": "muiText",
+      "formula": "field41 * 1.1",
+      "useFor": "field43"
+    },
+    "field43": {
+      "type": "muiText",
+      "formula": "field42 * 1.1",
+      "useFor": "field44"
+    },
+    "field44": {
+      "type": "muiText",
+      "formula": "field43 * 1.1",
+      "useFor": "field45"
+    },
+    "field45": {
+      "type": "muiText",
+      "formula": "field44 * 1.1",
+      "useFor": "field46"
+    },
+    "field46": {
+      "type": "muiText",
+      "formula": "field45 * 1.1",
+      "useFor": "field47"
+    },
+    "field47": {
+      "type": "muiText",
+      "formula": "field46 * 1.1",
+      "useFor": "field48"
+    },
+    "field48": {
+      "type": "muiText",
+      "formula": "field47 * 1.1",
+      "useFor": "field49"
+    },
+    "field49": {
+      "type": "muiText",
+      "formula": "field48 * 1.1",
+      "useFor": "field50"
+    },
+    "field50": {
+      "type": "muiText",
+      "formula": "field49 * 1.1",
+      "useFor": "field51"
+    },
+    "field51": {
+      "type": "muiText",
+      "formula": "field50 * 1.1",
+      "useFor": "field52"
+    },
+    "field52": {
+      "type": "muiText",
+      "formula": "field51 * 1.1",
+      "useFor": "field53"
+    },
+    "field53": {
+      "type": "muiText",
+      "formula": "field52 * 1.1",
+      "useFor": "field54"
+    },
+    "field54": {
+      "type": "muiText",
+      "formula": "field53 * 1.1",
+      "useFor": "field55"
+    },
+    "field55": {
+      "type": "muiText",
+      "formula": "field54 * 1.1",
+      "useFor": "field56"
+    },
+    "field56": {
+      "type": "muiText",
+      "formula": "field55 * 1.1",
+      "useFor": "field57"
+    },
+    "field57": {
+      "type": "muiText",
+      "formula": "field56 * 1.1",
+      "useFor": "field58"
+    },
+    "field58": {
+      "type": "muiText",
+      "formula": "field57 * 1.1",
+      "useFor": "field59"
+    },
+    "field59": {
+      "type": "muiText",
+      "formula": "field58 * 1.1",
+      "useFor": "field60"
+    },
+    "field60": {
+      "type": "muiText",
+      "formula": "field59 * 1.1",
+      "useFor": "field61"
+    },
+    "field61": {
+      "type": "muiText",
+      "formula": "field60 * 1.1",
+      "useFor": "field62"
+    },
+    "field62": {
+      "type": "muiText",
+      "formula": "field61 * 1.1",
+      "useFor": "field63"
+    },
+    "field63": {
+      "type": "muiText",
+      "formula": "field62 * 1.1",
+      "useFor": "field64"
+    },
+    "field64": {
+      "type": "muiText",
+      "formula": "field63 * 1.1",
+      "useFor": "field65"
+    },
+    "field65": {
+      "type": "muiText",
+      "formula": "field64 * 1.1",
+      "useFor": "field66"
+    },
+    "field66": {
+      "type": "muiText",
+      "formula": "field65 * 1.1",
+      "useFor": "field67"
+    },
+    "field67": {
+      "type": "muiText",
+      "formula": "field66 * 1.1",
+      "useFor": "field68"
+    },
+    "field68": {
+      "type": "muiText",
+      "formula": "field67 * 1.1",
+      "useFor": "field69"
+    },
+    "field69": {
+      "type": "muiText",
+      "formula": "field68 * 1.1",
+      "useFor": "field70"
+    },
+    "field70": {
+      "type": "muiText",
+      "formula": "field69 * 1.1",
+      "useFor": "field71"
+    },
+    "field71": {
+      "type": "muiText",
+      "formula": "field70 * 1.1",
+      "useFor": "field72"
+    },
+    "field72": {
+      "type": "muiText",
+      "formula": "field71 * 1.1",
+      "useFor": "field73"
+    },
+    "field73": {
+      "type": "muiText",
+      "formula": "field72 * 1.1",
+      "useFor": "field74"
+    },
+    "field74": {
+      "type": "muiText",
+      "formula": "field73 * 1.1",
+      "useFor": "field75"
+    },
+    "field75": {
+      "type": "muiText",
+      "formula": "field74 * 1.1",
+      "useFor": "field76"
+    },
+    "field76": {
+      "type": "muiText",
+      "formula": "field75 * 1.1",
+      "useFor": "field77"
+    },
+    "field77": {
+      "type": "muiText",
+      "formula": "field76 * 1.1",
+      "useFor": "field78"
+    },
+    "field78": {
+      "type": "muiText",
+      "formula": "field77 * 1.1",
+      "useFor": "field79"
+    },
+    "field79": {
+      "type": "muiText",
+      "formula": "field78 * 1.1",
+      "useFor": "field80"
+    },
+    "field80": {
+      "type": "muiText",
+      "formula": "field79 * 1.1",
+      "useFor": "field81"
+    },
+    "field81": {
+      "type": "muiText",
+      "formula": "field80 * 1.1",
+      "useFor": "field82"
+    },
+    "field82": {
+      "type": "muiText",
+      "formula": "field81 * 1.1",
+      "useFor": "field83"
+    },
+    "field83": {
+      "type": "muiText",
+      "formula": "field82 * 1.1",
+      "useFor": "field84"
+    },
+    "field84": {
+      "type": "muiText",
+      "formula": "field83 * 1.1",
+      "useFor": "field85"
+    },
+    "field85": {
+      "type": "muiText",
+      "formula": "field84 * 1.1",
+      "useFor": "field86"
+    },
+    "field86": {
+      "type": "muiText",
+      "formula": "field85 * 1.1",
+      "useFor": "field87"
+    },
+    "field87": {
+      "type": "muiText",
+      "formula": "field86 * 1.1",
+      "useFor": "field88"
+    },
+    "field88": {
+      "type": "muiText",
+      "formula": "field87 * 1.1",
+      "useFor": "field89"
+    },
+    "field89": {
+      "type": "muiText",
+      "formula": "field88 * 1.1",
+      "useFor": "field90"
+    },
+    "field90": {
+      "type": "muiText",
+      "formula": "field89 * 1.1",
+      "useFor": "field91"
+    },
+    "field91": {
+      "type": "muiText",
+      "formula": "field90 * 1.1",
+      "useFor": "field92"
+    },
+    "field92": {
+      "type": "muiText",
+      "formula": "field91 * 1.1",
+      "useFor": "field93"
+    },
+    "field93": {
+      "type": "muiText",
+      "formula": "field92 * 1.1",
+      "useFor": "field94"
+    },
+    "field94": {
+      "type": "muiText",
+      "formula": "field93 * 1.1",
+      "useFor": "field95"
+    },
+    "field95": {
+      "type": "muiText",
+      "formula": "field94 * 1.1",
+      "useFor": "field96"
+    },
+    "field96": {
+      "type": "muiText",
+      "formula": "field95 * 1.1",
+      "useFor": "field97"
+    },
+    "field97": {
+      "type": "muiText",
+      "formula": "field96 * 1.1",
+      "useFor": "field98"
+    },
+    "field98": {
+      "type": "muiText",
+      "formula": "field97 * 1.1",
+      "useFor": "field99"
+    },
+    "field99": {
+      "type": "muiText",
+      "formula": "field98 * 1.1",
+      "useFor": "field100"
+    },
+    "field100": {
+      "type": "muiText",
+      "formula": "field99 * 1.1"
+    }
+  }
+}

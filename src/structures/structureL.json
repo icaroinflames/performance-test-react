@@ -1,0 +1,102 @@
+{
+  "fields": {
+    "field1": {
+      "type": "muiText",
+      "useFor": "field2"
+    },
+    "field2": {
+      "type": "muiText",
+      "formula": "field1 * 1.1",
+      "useFor": "field3"
+    },
+    "field3": {
+      "type": "muiText",
+      "formula": "field2 * 1.1",
+      "useFor": "field4"
+    },
+    "field4": {
+      "type": "muiText",
+      "formula": "field3 * 1.1",
+      "useFor": "field5"
+    },
+    "field5": {
+      "type": "muiText",
+      "formula": "field4 * 1.1",
+      "useFor": "field6"
+    },
+    "field6": {
+      "type": "muiText",
+      "formula": "field5 * 1.1",
+      "useFor": "field7"
+    },
+    "field7": {
+      "type": "muiText",
+      "formula": "field6 * 1.1",
+      "useFor": "field8"
+    },
+    "field8": {
+      "type": "muiText",
+      "formula": "field7 * 1.1",
+      "useFor": "field9"
+    },
+    "field9": {
+      "type": "muiText",
+      "formula": "field8 * 1.1",
+      "useFor": "field10"
+    },
+    "field10": {
+      "type": "muiText",
+      "formula": "field9 * 1.1",
+      "useFor": "field11"
+    },
+    "field11": {
+      "type": "muiText",
+      "formula": "field10 * 1.1",
+      "useFor": "field12"
+    },
+    "field12": {
+      "type": "muiText",
+      "formula": "field11 * 1.1",
+      "useFor": "field13"
+    },
+    "field13": {
+      "type": "muiText",
+      "formula": "field12 * 1.1",
+      "useFor": "field14"
+    },
+    "field14": {
+      "type": "muiText",
+      "formula": "field13 * 1.1",
+      "useFor": "field15"
+    },
+    "field15": {
+      "type": "muiText",
+      "formula": "field14 * 1.1",
+      "useFor": "field16"
+    },
+    "field16": {
+      "type": "muiText",
+      "formula": "field15 * 1.1",
+      "useFor": "field17"
+    },
+    "field17": {
+      "type": "muiText",
+      "formula": "field16 * 1.1",
+      "useFor": "field18"
+    },
+    "field18": {
+      "type": "muiText",
+      "formula": "field17 * 1.1",
+      "useFor": "field19"
+    },
+    "field19": {
+      "type": "muiText",
+      "formula": "field18 * 1.1",
+      "useFor": "field20"
+    },
+    "field20": {
+      "type": "muiText",
+      "formula": "field19 * 1.1"
+    }
+  }
+}

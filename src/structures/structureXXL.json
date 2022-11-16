@@ -1496,8 +1496,7 @@
       },
       "field300": {
         "type": "muiText",
-        "formula": "field299 * 1.1",
-        "useFor": "field301"
+        "formula": "field299 * 1.1"
       }
     }
   }
