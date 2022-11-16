@@ -19,7 +19,7 @@ const Layout = () => {
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
         <CustomAppBar/>
-        <SideNav toggleMode={toggleMode} />
+        <SideNav toggleMode={toggleMode} mode={theme}/>
         <Box sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}>
           <Toolbar />
           <Outlet />

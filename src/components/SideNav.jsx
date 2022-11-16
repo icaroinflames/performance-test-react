@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 const drawerWidth = 240;
 
-export default function SideNav({ children, toggleMode }) {
+export default function SideNav({ children, toggleMode, mode }) {
     const navigate = useNavigate();
     const [selectedIndex, setSelectedIndex] = useState("");
 
@@ -43,7 +43,7 @@ export default function SideNav({ children, toggleMode }) {
                         <ListItemIcon>
                             <SwapIcon />
                         </ListItemIcon>
-                        <ListItemText primary={"Change mode"} />
+                        <ListItemText primary={"Change mode"} secondary={mode} />
                     </ListItemButton>
                 </ListItem>
             </List>

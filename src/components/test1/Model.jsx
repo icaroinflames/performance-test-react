@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext, useMemo} from 'react';
 import SimpleInput from "./SimpleInput";
 import initialData from "../../initialData.json";
 import DataContext from "../../context/DataContext";

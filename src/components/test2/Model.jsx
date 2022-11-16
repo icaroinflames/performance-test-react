@@ -4,7 +4,7 @@ import initialData from "../../initialData.json";
 import DataContext from "../../context/DataContext";
 import ThemeContext from "../../context/ThemeContext"
 
-import { getStructure } from '../structures';
+import { getStructure } from '../../structures';
 
 const Model = () => {
     const [structure, setStructure] = useState(null);
@@ -17,7 +17,7 @@ const Model = () => {
     useEffect(() => {   
         setStructure(getStructure(structureSize))
         Object.entries(initialData.fields).forEach(([key, value]) => dataContext[key] = value)
-    }, []);
+    }, [structureSize]);
 
     return structure ?
     (

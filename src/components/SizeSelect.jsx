@@ -5,15 +5,15 @@ import MenuItem from '@mui/material/MenuItem';
 
 const SizeSelect = () => {
     const [size, setSize] = useState("");
-    const {size: contextSize, setSize: setContextSize } = useContext(ThemeContext);
-    
-    useEffect(() =>{
+    const { size: contextSize, setSize: setContextSize } = useContext(ThemeContext);
+
+    useEffect(() => {
         setSize(contextSize);
     }, [contextSize]);
 
-    const handleChange = ({target}) => {
+    const handleChange = ({ target }) => {
         setContextSize(target.value);
-      };
+    };
 
     return (
         <Select
@@ -22,7 +22,7 @@ const SizeSelect = () => {
             value={size}
             label="Size"
             onChange={handleChange}
-            sx={{ backgroundColor:'white' }}
+            sx={{ backgroundColor: 'white' }}
         >
             <MenuItem value="S">Small</MenuItem>
             <MenuItem value="M">Medium</MenuItem>

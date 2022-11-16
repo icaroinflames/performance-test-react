@@ -4,7 +4,7 @@ import initialData from "../../initialData.json";
 import DataContext from "../../context/DataContext";
 import ThemeContext from "../../context/ThemeContext";
 
-import { getStructure } from '../structures';
+import { getStructure } from '../../structures';
 
 import {create, all} from "mathjs";
 const math = create(all);
