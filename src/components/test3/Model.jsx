@@ -22,13 +22,23 @@ const Model = () => {
         const {formula, useFor } = structure.fields[curField];
 
         const newValue = math.evaluate(formula, data);
-        const newData = {...data, [curField]: newValue}
+
+        //
+        // copy the object is a little bit slower
+        //
+        // const newData = {...data, [curField]: newValue}
+        // if(useFor !== undefined){
+        //     calculateFields(newData, useFor);
+        //     return;
+        // }
+        // setFields(newData);
+
+        data[curField] = newValue;
         if(useFor !== undefined){
-            calculateFields(newData, useFor);
+            calculateFields(data, useFor);
             return;
         }
-        setFields(newData);
-
+        setFields(data);
     };
 
     useEffect(() => {
